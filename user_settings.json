@@ -10,6 +10,12 @@
         },
         "editor.defaultFormatter": "Dart-Code.dart-code"
     },
+    "[dart][typescript]": {
+        "editor.codeActionsOnSave": {
+            "source.organizeImports": "explicit",
+            "source.fixAll": "explicit"
+        }
+    },
     "[typescript]": {
         "editor.formatOnSave": true,
         "editor.formatOnType": true,
@@ -25,6 +31,8 @@
         "pubspec.yaml": "pubspec.lock,pubspec_overrides.yaml,.packages,.flutter-plugins,.flutter-plugins-dependencies,.metadata",
         "*.dart": "${capture}.g.dart, ${capture}.freezed.dart"
     },
+    "editor.cursorBlinking": "phase",
+    "editor.cursorSmoothCaretAnimation": "on",
     "editor.bracketPairColorization.enabled": true,
     "editor.stickyScroll.enabled": true,
     "editor.inlineSuggest.enabled": true,
@@ -51,28 +59,14 @@
         {
             "label": "Mentioned Me",
             "query": "is:open mentions:${user}"
+        },
+        {
+            "labes": "Waiting For Organization Review",
+            "query": "is:open org-review-requested:${user}"
+        },
+        {
+            "label": "Waiting For Team Review",
+            "query": "is:open team-review-requested:${user}"
         }
     ],
-    "animations.Install-Method": "Apc Customize UI++",
-    "update.mode": "manual",
-    "apc.electron": {
-        "opacity": 0.95,
-        "transparent": true,
-        "backgroundColor": "#00000000",
-        "vibrancy": "ultra-dark"
-    },
-    "apc.imports": [
-        "file:///Users/thiagoevoa/.vscode/extensions/brandonkirbyson.vscode-animations-2.0.1/dist/updateHandler.js"
-    ],
-    "apc.stylesheet": {
-        ".monaco-editor .cursor": "background: #ffffffaa !important; box-shadow: 0 0 70px 5px #ffffff, #ffffff 0px 0px 34px 1px; color: [#161616](https://github.com/AlexOwl/vscode-transparent-color-theme/issues/161616) !important",
-    },  
-    "editor.cursorBlinking": "phase",
-    "editor.cursorSmoothCaretAnimation": "on",
-    "[dart][typescript]": {
-        "editor.codeActionsOnSave": {
-            "source.organizeImports": "explicit",
-            "source.fixAll": "explicit"
-        }
-    },
 }

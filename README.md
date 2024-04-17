@@ -1,11 +1,6 @@
 
 # vscode_settings
 
-Settings and Extensions for productivity
-
-
-
-
 ## settings.json
 
 ```json

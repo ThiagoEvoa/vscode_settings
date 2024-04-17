@@ -6,7 +6,7 @@
         "editor.formatOnType": true,
         "editor.codeActionsOnSave": {
             "source.organizeImports": "explicit",
-            "source.fixAll": "explicit",
+            "source.fixAll": "explicit"
         },
         "editor.defaultFormatter": "Dart-Code.dart-code"
     },
@@ -21,7 +21,7 @@
         "editor.formatOnType": true,
         "editor.codeActionsOnSave": {
             "source.organizeImports": "explicit",
-            "source.fixAll": "explicit",
+            "source.fixAll": "explicit"
         },
         "editor.defaultFormatter": "vscode.typescript-language-features"
     },
@@ -72,5 +72,5 @@
             "label": "Waiting For Team Review",
             "query": "is:open team-review-requested:${user}"
         }
-    ],
+    ]
 }
